@@ -5,7 +5,7 @@ import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
 class App extends React.Component {
-    state = { videos: [], selectedVideo: null };
+    state = { videos: [], selectedVideo: null }; //empty array & selectedVideo
 
     componentDidMount() {
         this.onTermSubmit('buildings');
